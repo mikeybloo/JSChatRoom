@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat Room :]</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="index.js"></script>
+    </head>
+    <body>
+        <script></script>
+        <div>
+            <h1 class="pageTitle">Chat room :]</h1>
+            <button onclick="connectToWebSocket()">Connect to WebSocket</button>
+            <div id="response">
+
+            </div>
+        
+            <div id="chat" style="border: solid black 1px; width: 800px; height: 800px;">
+                <h3>Chat</h3>
+                <div id="chatBox" style="border: solid red 1px; width: 800px; height: 600px;">
+
+                </div>
+                <div style="margin-top: 15px">
+                    <input id="messageInput" type="text" style="width: 600px">
+                    <button id="submit" onclick="sendMessage()">Send</button>
+                </div>
+            </div>
+        </div>        
+    </body>
+</html>

@@ -1,0 +1,16 @@
+.pageTitle, .onerror {
+    color: red;
+}
+
+.onsuccess {
+    color: green;
+}
+
+#chatBox {
+    overflow: auto;
+}
+
+.gifimage {
+    width: 100%;
+    max-width: 200px;
+}
